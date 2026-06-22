@@ -32,6 +32,11 @@ legend {
     padding: 5px 14px;
     border-radius: 20px;
     text-transform: uppercase;
+    box-shadow:
+        0 0 6px #39ff14,
+        0 0 18px #39ff14,
+        0 0 40px rgba(57, 255, 20, 0.6);
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 label {
@@ -120,6 +125,11 @@ button[type="submit"] {
     background-color: #39ff14;
     color: #0d1b2a;
     border: none;
+    box-shadow:
+        0 0 6px #39ff14,
+        0 0 18px #39ff14,
+        0 0 40px rgba(57, 255, 20, 0.5);
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 
@@ -127,6 +137,11 @@ button[type="reset"] {
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
+    box-shadow:
+        0 0 6px rgba(255, 255, 255, 0.6),
+        0 0 18px rgba(255, 255, 255, 0.3),
+        0 0 40px rgba(255, 255, 255, 0.15);
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 
