@@ -1,101 +1,130 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
+    background-color: #0d1b2a;
+    padding: 30px;
+    margin: 0;
+    color: #ffffff;
 }
 
 form {
-    background-color: #ffffff;
+    background-color: #0f2035;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 480px;
+    border-radius: 16px;
+    border: 1px solid #1e3a55;
 }
 
 fieldset {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    background-color: #112233;
+    border: 1px solid #1e3a55;
+    border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 legend {
+    background-color: #39ff14;
+    color: #0d1b2a;
     font-weight: bold;
-    font-size: 16px;
-    color: #333;
-    padding: 0 8px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    text-transform: uppercase;
 }
 
 label {
     display: block;
-    margin-top: 12px;
-    margin-bottom: 4px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #ffffff;
     font-size: 14px;
-    color: #555;
 }
 
 input[type="text"],
-select,
-textarea {
+input[type="endereço"],
+input[type="cidade"] {
     width: 100%;
-    padding: 8px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    padding: 12px 14px;
+    background-color: #0d1b2a;
+    border: 1px solid #1e3a55;
+    border-radius: 8px;
+    color: #8899aa;
     font-size: 14px;
     box-sizing: border-box;
-    transition: border-color 0.2s;
 }
 
-input[type="text"]:focus,
-select:focus,
-textarea:focus {
-    border-color: #4a90e2;
-    outline: none;
+select {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #0d1b2a;
+    border: 1px solid #1e3a55;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2339ff14' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    cursor: pointer;
 }
 
 input[type="checkbox"] {
-    margin-right: 6px;
-    accent-color: #4a90e2;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    accent-color: #39ff14;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
 input[type="checkbox"] + label {
     display: inline;
-    font-size: 14px;
-    color: #444;
+    margin-top: 0;
 }
 
 textarea {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #0d1b2a;
+    border: 1px solid #1e3a55;
+    border-radius: 8px;
+    color: #8899aa;
+    font-size: 14px;
+    box-sizing: border-box;
     resize: vertical;
+    min-height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #445566;
 }
 
 button {
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 10px 24px;
-    border: none;
-    border-radius: 6px;
-    font-size: 14px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.2s;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 button[type="submit"] {
-    background-color: #4a90e2;
-    color: white;
-}
-
-button[type="submit"]:hover {
-    background-color: #357abd;
+    background-color: #39ff14;
+    color: #0d1b2a;
+    border: none;
 }
 
 button[type="reset"] {
-    background-color: #e0e0e0;
-    color: #333;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
-button[type="reset"]:hover {
-    background-color: #c8c8c8;
+button:hover {
+    opacity: 0.85;
 }
