@@ -98,10 +98,12 @@ textarea {
     min-height: 100px;
 }
 
+
 input::placeholder,
 textarea::placeholder {
     color: #445566;
 }
+
 
 button {
     padding: 12px 28px;
@@ -113,17 +115,20 @@ button {
     margin-top: 10px;
 }
 
+
 button[type="submit"] {
     background-color: #39ff14;
     color: #0d1b2a;
     border: none;
 }
 
+
 button[type="reset"] {
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
 }
+
 
 button:hover {
     opacity: 0.85;
