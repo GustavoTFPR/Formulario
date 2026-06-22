@@ -80,10 +80,12 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
+
 input[type="checkbox"] + label {
     display: inline;
     margin-top: 0;
 }
+
 
 textarea {
     width: 100%;
@@ -124,9 +126,9 @@ button[type="submit"] {
 
 
 button[type="reset"] {
-    background-color: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    background-color: #39ff14;
+    color: #0d1b2a;
+    border: none;
 }
 
 
